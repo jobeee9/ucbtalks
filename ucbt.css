@@ -389,7 +389,9 @@ a{
     text-align: justify;
 }
 
-.acc{
+.acc img{
+    width: 400px;
+    height: 400px;
     display: flex;
     position: absolute;
     right: 55px;
@@ -606,9 +608,11 @@ a{
     }
     
      .acc img{
+        width: 200px;
+        height: 200px;
         display: flex;
         position: absolute;
-        right: 75px;
-        bottom: 415px;
+        right: 110px;
+        bottom: 565px;
     }
 }
