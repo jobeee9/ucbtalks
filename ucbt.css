@@ -175,46 +175,14 @@ a{
     text-transform: uppercase;
     font-size: 30px;
 }
-
-.scap, .scap2, .scap3{
+.scap{
     font-size: 14px;
     line-height: 25px;
     margin: 20px 0;
     font-weight: 400;
 }
-
-
-/*
-.polaroid:hover .caption3{
-    cursor: pointer;
-    top: 124%;
-    opacity: 1;
-}
-.caption3 {
-    background-color: rgba(0, 0, 0, 0.466);
-    height: 315px;
-    width: 300px;
-    position: absolute;
-    top: 155%;
-    left: 700;
-    opacity: 0;
-    border-radius: 25px;
-    backdrop-filter: blur(2px);
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    transition: top 0.5s , opacity 0.5s;
-    
-}
-
-.sotrycap{
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-.storycaps{
-    font-size: 16px;
+.scap2, .scap3{
+    font-size: 12px;
     line-height: 25px;
     margin: 20px 0;
     font-weight: 400;
@@ -463,6 +431,12 @@ a{
         
     }
 
+    .polaroid img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     .caption {
         width: 120px;
         height: 150px;
@@ -494,11 +468,20 @@ a{
         font-size: 15px;
     }
 
+    .eduall{
+        position: absolute;
+        left: 20px;
+    }
+
     .educap{
         width: 120px;
         height: 150px;
         top: calc(100% - 35px);
         opacity: 0;
+    }
+
+    #edu{
+        height: 633px;
     }
 
     .educcap{
@@ -529,6 +512,14 @@ a{
         margin-top: 8px;
     }
 
+    #sto{
+        height: 633px;
+    }
+    .stoall{
+        position: absolute;
+        left: 20px;
+    }
+
     .stocap{
         width: 120px;
         height: 150px;
@@ -547,16 +538,24 @@ a{
         margin-top: 1px;
     }
 
+    #eve{
+        height: 633px;
+    }
+
+    .eveall{
+        position: absolute;
+        left: 20px;
+    }
+
     .evencap{
         width: 120px;
         height: 150px;
         top: calc(100% - 35px);
-        opacity: 0;s
+        opacity: 0;
     }
 
-    .evecapp, .evecapp2, .evecapp3{
+    .evecapp, .evecapp2 .evecapp3{
         text-transform: uppercase;
-        font-size: 12px;
     }
     
     .sevencap, .sevencap2, .sevencap3{
@@ -569,26 +568,37 @@ a{
         top: 500px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .yes {
-        width: 80%;
+    #au{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        width: auto;
+        background-color: whitesmoke;
     }
-
-    .acc img {
-        width: 200px;
+    .aboutuc{
+        position: absolute;
+        left: 20px;
+    }
+    
+    .yes{
+        position: absolute;
+        left: 10%;
         height: 200px;
+        width: 400px;
+        text-align: justify;
+        word-spacing: 10px;
+    }
+    .ab{
+        font-size: 100%;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    .acc{
+        display: flex;
+        position: absolute;
+        right: 55px;
+        bottom: 240px;
     }
 }
