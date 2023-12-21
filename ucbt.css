@@ -605,10 +605,10 @@ a{
         text-align: justify;
     }
     
-    .acc{
+     .acc img{
         display: flex;
         position: absolute;
-        right: 55px;
-        bottom: 240px;
+        right: 75px;
+        bottom: 415px;
     }
 }
