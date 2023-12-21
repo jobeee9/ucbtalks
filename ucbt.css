@@ -596,7 +596,7 @@ a{
         position: absolute;
         left: 10%;
         height: 140px;
-        bottom: 315px;
+        bottom: 40px;
         width: 80%;
         text-align: justify;
         word-spacing: 10px;
@@ -612,7 +612,7 @@ a{
         height: 200px;
         display: flex;
         position: absolute;
-        right: 110px;
-        bottom: 300px;
+        right: 89px;
+        bottom: 350px;
     }
 }
