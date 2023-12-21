@@ -585,12 +585,17 @@ a{
         position: absolute;
         left: 20px;
     }
-    
+
+    #au{
+        height: 1000px;
+    }
+	
     .yes{
         position: absolute;
         left: 10%;
         height: 200px;
-        width: 400px;
+        bottom: 315px;
+        width: 80%;
         text-align: justify;
         word-spacing: 10px;
     }
